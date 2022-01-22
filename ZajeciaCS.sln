@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04-Static", "P04-Static\P0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05-Properties", "P05-Properties\P05-Properties.csproj", "{3E6733F8-AEA8-46C6-9811-49E1BF10A983}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06-GuessNumberGame", "P06-GuessNumberGame\P06-GuessNumberGame.csproj", "{A39AB2E3-87D9-49E5-AB58-F39EB9D0E2A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3E6733F8-AEA8-46C6-9811-49E1BF10A983}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E6733F8-AEA8-46C6-9811-49E1BF10A983}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E6733F8-AEA8-46C6-9811-49E1BF10A983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A39AB2E3-87D9-49E5-AB58-F39EB9D0E2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39AB2E3-87D9-49E5-AB58-F39EB9D0E2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39AB2E3-87D9-49E5-AB58-F39EB9D0E2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39AB2E3-87D9-49E5-AB58-F39EB9D0E2A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
