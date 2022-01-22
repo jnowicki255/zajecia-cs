@@ -6,6 +6,8 @@ namespace P02_Objects
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello Objects!");
+
             Book firstBook = new Book("Informatyka w szkole średniej.",
                 "Jan Nowak", 400);
         }
