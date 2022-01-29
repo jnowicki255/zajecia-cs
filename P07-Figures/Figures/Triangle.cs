@@ -2,7 +2,7 @@
 
 namespace P07_Figures.Figures
 {
-    public class Triangle
+    public class Triangle : Figure2D
     {
         public double Height { get; set; }
         public double BaseLength { get; set; }
@@ -18,7 +18,7 @@ namespace P07_Figures.Figures
             BaseLength = baseLength;
         }
 
-        public double Area()
+        public override double Area()
         {
             return BaseLength * Height / 2;
         }
@@ -26,6 +26,11 @@ namespace P07_Figures.Figures
         public double Perimeter()
         {
             return 0;
+        }
+
+        public override string GetData()
+        {
+            return $"Kolor: {Color}, Wysokość: {Height}, Długość podstawy: {BaseLength}";
         }
     }
 }

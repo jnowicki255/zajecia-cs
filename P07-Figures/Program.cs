@@ -7,17 +7,48 @@ namespace P07_Figures
     {
         static void Main(string[] args)
         {
-            do
+            Circle c1 = new Circle();
+            Circle c2 = new Circle(20.5);
+            Circle c3 = new Circle(10.5, "Red");
+
+            Rectangle r1 = new Rectangle()
             {
-                Console.Clear();
+                Color = "Pink",
+                Width = 20,
+                Height = 40,
+            };
 
-                var type = PrintMenu();
-                GetData(type);
+            Triangle t1 = new Triangle()
+            {
+                Color = "Blue",
+                BaseLength = 20,
+                Height = 100
+            };
 
-                if (!GetRepeatInfo())
-                    break;
+            Square s1 = new Square()
+            {
+                Color = "Brown",
+                SideLength = 50
+            };
 
-            }while (true);
+            Figure2D[] fArr = new Figure2D[] { c3, r1, t1, s1 };
+            foreach(var f in fArr)
+            {
+                Console.WriteLine(f.GetData());
+                Console.WriteLine($"Pole figury to: {f.Area()}");
+            }
+
+            //do
+            //{
+            //    Console.Clear();
+
+            //    var type = PrintMenu();
+            //    GetData(type);
+
+            //    if (!GetRepeatInfo())
+            //        break;
+
+            //}while (true);
         }
 
         private static int PrintMenu()
