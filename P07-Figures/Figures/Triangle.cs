@@ -17,5 +17,15 @@ namespace P07_Figures.Figures
             Height = height;
             BaseLength = baseLength;
         }
+
+        public double Area()
+        {
+            return BaseLength * Height / 2;
+        }
+
+        public double Perimeter()
+        {
+            return 0;
+        }
     }
 }

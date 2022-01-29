@@ -55,20 +55,21 @@ namespace P07_Figures
             switch (type)
             {
                 case 1:
-                    Console.WriteLine("Podaj dane dla trójkąta...");
-                    Triangle t = GetTriangleData();
+                    Triangle tri = GetTriangleData();
+                    tri.Area();
+                    tri.Perimeter();
                     break;
 
                 case 2:
-                    Console.WriteLine("Podaj dane dla kwadratu...");
+                    Square sq = GetSquareData();
                     break;
 
                 case 3:
-                    Console.WriteLine("Podaj dane dla prostokąta...");
+                    Rectangle rect = GetRectangleData();
                     break;
 
                 case 4:
-                    Console.WriteLine("Podaj dane dla okręgu...");
+                    Circle cir = GetCircleData();
                     break;
             }
         }
@@ -92,6 +93,43 @@ namespace P07_Figures
             var baseLength = Console.ReadLine();
 
             return new Triangle(Convert.ToDouble(height), Convert.ToDouble(baseLength));
+        }
+
+        private static Rectangle GetRectangleData()
+        {
+            Console.Write("Podaj szerokość prostokąta: ");
+            var width = Console.ReadLine();
+
+            Console.Write("Podaj wysokość prostokąta: ");
+            var height = Console.ReadLine();
+
+            return new Rectangle
+            {
+                Height = Convert.ToDouble(height),
+                Width = Convert.ToDouble(width)
+            };
+        }
+
+        private static Square GetSquareData()
+        {
+            Console.Write("Podaj długość boku kwadratu: ");
+            var length = Console.ReadLine();
+
+            return new Square
+            {
+                SideLength = Convert.ToDouble(length)
+            };
+        }
+
+        private static Circle GetCircleData()
+        {
+            Console.Write("Podaj promień okręgu: ");
+            var radius = Console.ReadLine();
+
+            return new Circle
+            {
+                Radius = Convert.ToDouble(radius)
+            };
         }
     }
 }
