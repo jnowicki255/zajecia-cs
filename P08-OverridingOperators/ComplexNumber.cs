@@ -37,6 +37,13 @@ namespace P08_OverridingOperators
             return !(c1 == c2);
         }
 
+        public static ComplexNumber operator *(ComplexNumber c1, ComplexNumber c2){
+            double re = (c1.Re * c2.Re) - (c1.Im * c2.Im);
+            double im = (c1.Re * c2.Im) + (c2.Re * c1.Im);
+
+            return new ComplexNumber(re, im);
+        }
+
         public override string ToString()
         {
             if (Im >= 0)
