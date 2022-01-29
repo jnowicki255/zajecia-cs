@@ -7,13 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01-FirstApp", "P01-FirstAp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02-Objects", "P02-Objects\P02-Objects.csproj", "{515C72F9-C22B-4109-BBD9-68053974B561}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03-Methods", "P03-Methods\P03-Methods.csproj", "{8419EA7D-ADD6-449E-A24D-E8E1D16412EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03-Methods", "P03-Methods\P03-Methods.csproj", "{8419EA7D-ADD6-449E-A24D-E8E1D16412EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04-Static", "P04-Static\P04-Static.csproj", "{BAE1B319-21BF-4F92-BD37-14D0893DD682}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04-Static", "P04-Static\P04-Static.csproj", "{BAE1B319-21BF-4F92-BD37-14D0893DD682}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05-Properties", "P05-Properties\P05-Properties.csproj", "{3E6733F8-AEA8-46C6-9811-49E1BF10A983}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05-Properties", "P05-Properties\P05-Properties.csproj", "{3E6733F8-AEA8-46C6-9811-49E1BF10A983}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06-GuessNumberGame", "P06-GuessNumberGame\P06-GuessNumberGame.csproj", "{A39AB2E3-87D9-49E5-AB58-F39EB9D0E2A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P06-GuessNumberGame", "P06-GuessNumberGame\P06-GuessNumberGame.csproj", "{A39AB2E3-87D9-49E5-AB58-F39EB9D0E2A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07-Figures", "P07-Figures\P07-Figures.csproj", "{54A02F7D-7968-4FD0-AD07-5940E6602096}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{A39AB2E3-87D9-49E5-AB58-F39EB9D0E2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A39AB2E3-87D9-49E5-AB58-F39EB9D0E2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A39AB2E3-87D9-49E5-AB58-F39EB9D0E2A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54A02F7D-7968-4FD0-AD07-5940E6602096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54A02F7D-7968-4FD0-AD07-5940E6602096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54A02F7D-7968-4FD0-AD07-5940E6602096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54A02F7D-7968-4FD0-AD07-5940E6602096}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
