@@ -9,7 +9,7 @@
             return SideLength * SideLength;
         }
 
-        public double Perimeter()
+        public override double Perimeter()
         {
             return SideLength * 4;
         }

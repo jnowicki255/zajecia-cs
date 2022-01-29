@@ -26,5 +26,7 @@ namespace P07_Figures.Figures
         }
 
         public abstract double Area();
+
+        public abstract double Perimeter();
     }
 }

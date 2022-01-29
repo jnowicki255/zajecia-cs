@@ -7,6 +7,12 @@ namespace P07_Figures
     {
         static void Main(string[] args)
         {
+            //AbstractSample();
+            FiguresProgram();
+        }
+
+        private static void AbstractSample()
+        {
             Circle c1 = new Circle();
             Circle c2 = new Circle(20.5);
             Circle c3 = new Circle(10.5, "Red");
@@ -32,23 +38,26 @@ namespace P07_Figures
             };
 
             Figure2D[] fArr = new Figure2D[] { c3, r1, t1, s1 };
-            foreach(var f in fArr)
+            foreach (var f in fArr)
             {
                 Console.WriteLine(f.GetData());
                 Console.WriteLine($"Pole figury to: {f.Area()}");
             }
+        }
 
-            //do
-            //{
-            //    Console.Clear();
+        private static void FiguresProgram()
+        {
+            do
+            {
+                Console.Clear();
 
-            //    var type = PrintMenu();
-            //    GetData(type);
+                var type = PrintMenu();
+                GetData(type);
 
-            //    if (!GetRepeatInfo())
-            //        break;
+                if (!GetRepeatInfo())
+                    break;
 
-            //}while (true);
+            } while (true);
         }
 
         private static int PrintMenu()

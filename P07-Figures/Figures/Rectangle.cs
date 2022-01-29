@@ -20,7 +20,7 @@
             return Height * Width;
         }
 
-        public double Perimeter()
+        public override double Perimeter()
         {
             return (Height * 2) + (Width * 2);
         }

@@ -23,7 +23,7 @@ namespace P07_Figures.Figures
             return BaseLength * Height / 2;
         }
 
-        public double Perimeter()
+        public override double Perimeter()
         {
             return 0;
         }

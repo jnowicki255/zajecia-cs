@@ -26,7 +26,7 @@ namespace P07_Figures.Figures
             return Math.PI * Math.Pow(Radius, 2);
         }
 
-        public double Perimeter()
+        public override double Perimeter()
         {
             return 2 * Math.PI * Radius;
         }
