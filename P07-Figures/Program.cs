@@ -56,20 +56,26 @@ namespace P07_Figures
             {
                 case 1:
                     Triangle tri = GetTriangleData();
-                    tri.Area();
-                    tri.Perimeter();
+                    Console.WriteLine($"Pole podanego trójkąta to: {tri.Area()}");
+                    Console.WriteLine($"Obwód podanego trójkąta to: {tri.Perimeter()}");
                     break;
 
                 case 2:
                     Square sq = GetSquareData();
+                    Console.WriteLine($"Pole podanego kwadratu to: {sq.Area()}");
+                    Console.WriteLine($"Obwód podanego kwadratu to: {sq.Perimeter()}");
                     break;
 
                 case 3:
                     Rectangle rect = GetRectangleData();
+                    Console.WriteLine($"Pole podanego prostokąta to: {rect.Area()}");
+                    Console.WriteLine($"Obwód podanego prostokąta to: {rect.Perimeter()}");
                     break;
 
                 case 4:
                     Circle cir = GetCircleData();
+                    Console.WriteLine($"Pole podanego okręgu to: {cir.Area()}");
+                    Console.WriteLine($"Obwód podanego okręgu to: {cir.Perimeter()}");
                     break;
             }
         }
